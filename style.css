@@ -30,29 +30,30 @@
                 
 
                 .button { 
-               
+                border: 0px;
                 font-size: 16px;
                 font-weight: bold;
-                margin: 4px 2px;
+                margin: 30px 2px;
+                top: 100px;
                 cursor: pointer;
                 width: 10%;
                 float:right;
                 display:block;
-                transition: width .5s;
-               
-                
+                width: 100px;
+                transition: background-color 0.5s ease-in 0.3s;
                 }
-                .button:hover{
-                        width : 450px;
-                        }
+
                 .backbox{
-                                background-color:aqua;
+                                background-color:rgba(0, 255, 255, 0.363);
+                                border-radius: 5%; 
                                 width: 1400px;
                                 top:1300px;
-                                border: 10px solid rgb(19, 0, 128);
+                                border: 5px solid rgba(19, 0, 128, 0.616);
+                                border-radius: 5% ;
                                 margin: 10px; 
                                 position: absolute;
-                                left: 60px;        
+                                left: 60px;    
+                                   
                         }
 
 .Programmer{
@@ -70,10 +71,10 @@
     position: fixed; left:770px; top:730px; width:3%; cursor: pointer;
 }
 .email{
-    position: fixed; left:10px; top:10px; width:4%; cursor: pointer;
+    position: fixed; left:10px; top:10px; width:3.5%; cursor: pointer;
 }
 .github{
-    position: fixed; left:825px; top:726px; width:3.5%; cursor: pointer;
+    position: FIXED; left:825px; top:726px; width:3.5%; cursor: pointer;
 
 }
 h2{
@@ -138,3 +139,132 @@ body {
   .block:after {
     filter: blur(50px);
   }
+.about_block{
+  
+    background-color:rgba(57, 83, 83, 0.363);
+    border-radius: 5%; 
+    width: 1100px;
+    height: 300px;
+    top:580px;
+    border: 5px solid rgba(19, 0, 128, 0.616);
+    border-radius: 5% ;
+    margin: 10px; 
+    position: absolute;
+    left: 220px;    
+       
+}
+.block2{
+  
+  background-color:rgba(57, 83, 83, 0.363);
+  border-radius: 5%; 
+  width: 1100px;
+  height: 300px;
+  top:940px;
+  border: 5px solid rgba(19, 0, 128, 0.616);
+  border-radius: 5% ;
+  margin: 10px; 
+  position: absolute;
+  left: 220px;   
+     
+}
+.block3{
+  
+  background-color:rgba(57, 83, 83, 0.363);
+    border-radius: 5%; 
+    width: 1100px;
+    height: 300px;
+    top:1300px;
+    border: 5px solid rgba(19, 0, 128, 0.616);
+    border-radius: 5% ;
+    margin: 10px; 
+    position: absolute;
+    left: 220px;  
+     
+}
+.block4{
+  
+  background-color:rgba(57, 83, 83, 0.363);
+    border-radius: 5%; 
+    width: 1100px;
+    height: 300px;
+    top:1660px;
+    border: 5px solid rgba(19, 0, 128, 0.616);
+    border-radius: 5% ;
+    margin: 10px; 
+    position: absolute;
+    left: 220px;   
+     
+}
+.f_block{
+  
+  background-color:rgba(57, 83, 83, 0.363);
+    border-radius: 5%; 
+    width: 900px;
+    border: 4px solid rgba(19, 0, 128, 0.616);
+    border-radius: 5% ;
+    margin: 10px; 
+    position: absolute;
+   left: 600px; 
+   top:600px; height: 45%;
+     
+}
+.fuelly{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: -250px;
+  top: 600px;
+}
+.fuellymap{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: -100px;
+  top: 600px;
+
+}
+.f_order{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50px;
+  top: 600px;
+
+}
+.t_block{
+  background-color:rgba(57, 83, 83, 0.363);
+    border-radius: 5%; 
+    width: 800px;
+    border: 4px solid rgba(19, 0, 128, 0.616);
+    border-radius: 5% ;
+    margin: 10px; 
+    position: absolute;
+   left: 40px; 
+   top:1080px; height: 45%;
+}
+.tictactoe{
+  position: absolute;
+  width: 40%;
+  height: 45%;
+  left: 900px;
+  top: 1100px;
+
+
+}
+.h_line{
+  margin: 20px;
+  width: 1510px;
+  height: 3px;
+  background-color:rgb(14, 248, 197);
+  position: absolute;
+  
+  box-shadow: 10px 80px 40px 20px #0ff;
+}
+.coder{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  width:20%;
+  height:20%;
+  border-radius: 50%;
+}
