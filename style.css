@@ -253,12 +253,11 @@ body {
 }
 .h_line{
   margin: 20px;
-  width: 1510px;
+  width: 610px;
   height: 3px;
-  background-color:rgb(14, 248, 197);
+  background-color:rgb(21, 131, 235);
   position: absolute;
-  
-  box-shadow: 10px 80px 40px 20px #0ff;
+  box-shadow: 10px 10px 40px 10px #0ff;
 }
 .coder{
   position: absolute;
@@ -267,4 +266,33 @@ body {
   width:20%;
   height:20%;
   border-radius: 50%;
+}
+
+
+
+  
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+  min-height: 200vh;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
 }
