@@ -44,7 +44,7 @@
                 }
 
                 .backbox{
-                                background-color:rgba(0, 255, 255, 0.363);
+                                background-color:rgba(57, 83, 83, 0.363);
                                 border-radius: 5%; 
                                 width: 1400px;
                                 top:1300px;
@@ -309,3 +309,26 @@ body {
     position: absolute;
     left: 220px;    
   }  
+  #contact{
+    font-family: verdana;
+    font-size: 30px;
+   
+
+}
+.contact-left{
+    flex-basis: 35%;
+    color: rgb(243, 199, 236);
+}
+.contact-right{
+    flex-basis: 60%;
+
+}
+.contact-left p{
+    margin-top: 10px;
+    color: beige;
+}
+.contact-left p{
+    color: rgb(239, 237, 241);
+    margin-right: 15px;
+    font-size: 15px;
+}
